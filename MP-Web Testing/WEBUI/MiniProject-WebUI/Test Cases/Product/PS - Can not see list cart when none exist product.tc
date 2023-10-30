@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PS - Can not see list cart when none exist product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dff5f8ab-9345-4af6-9abd-9511a08cb3a2</testCaseGuid>
+</TestCaseEntity>

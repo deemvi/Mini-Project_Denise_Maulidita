@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PS - Can not transaction without login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c9f4909-59ca-463f-a6f4-c7e3de05c23a</testCaseGuid>
+</TestCaseEntity>
