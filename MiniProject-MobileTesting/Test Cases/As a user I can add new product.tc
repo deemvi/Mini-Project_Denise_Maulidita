@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>As a user I can add new product</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fc2de783-d3e1-4f89-b206-cfa7f82f936e</testCaseGuid>
-</TestCaseEntity>
