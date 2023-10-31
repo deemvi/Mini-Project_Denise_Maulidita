@@ -18,7 +18,7 @@ jobs:
       - name: Build and Test with Maven
         run: mvn --batch-mode --update-snapshots verify
   test:
-    name: TESTING API
+    name: TESTING MINI PROJECT
     needs: build
     runs-on: ubuntu-latest
     steps:
