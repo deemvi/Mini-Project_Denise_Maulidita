@@ -21,7 +21,7 @@ public class RegisterSteps {
     @Given("I am on the register page")
     public void validateOnRegisterPage() {
         registerPages.openUrl("https://alta-shop.vercel.app/auth/register");
-        registerPages.validateOnRegisterPage();
+        Assertions.assertTrue(registerPages.validateOnRegisterPage());
     }
 
     @When("I input nama lengkap")
@@ -49,7 +49,7 @@ public class RegisterSteps {
         loginPage.displayLoginPage();
     }
 
-            //case negative/////
+    //case negative/////
     @When("I not input nama lengkap")
     public void inputInvalidNamaLengkap() {
         registerPages.inputInvalidNamaLengkap("");

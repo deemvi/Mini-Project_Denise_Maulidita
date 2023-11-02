@@ -52,7 +52,7 @@ public class LoginSteps {
 
     @When("I input unregistered email")
     public void inputUnregisteredEmail() {
-            loginPage.inputUnregisteredEmail("another89@gmail.com");
+        loginPage.inputUnregisteredEmail("another89@gmail.com");
     }
 
     @And("I input unregistered password")
@@ -62,8 +62,8 @@ public class LoginSteps {
 
     @Then("I can see error message {string}")
     public void validErrorMessageIsDisplayed(String message) {
-      loginPage.validateErrorMessageIsDisplayed();
-       loginPage.validateEqualErrorMessage(message);
+        Assertions.assertTrue(loginPage.validateErrorMessageIsDisplayed());
+        Assertions.assertFalse(loginPage.validateEqualErrorMessage(message));
     }
 
 }
